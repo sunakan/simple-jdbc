@@ -1,0 +1,13 @@
+---
+spring:
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql://arjuna.db.elephantsql.com:5432/edisulwr"
+    username: "edisulwr"
+    password: "FpiRgsJwB6CpiChufOLLizM_aV2ykvOh"
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc: "debug"
